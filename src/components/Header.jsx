@@ -1,6 +1,7 @@
 import logo from "../images/logo.svg";
 import arrow from "../images/arrow.svg";
 import search from "../images/search.svg";
+import {Link} from "react-router-dom";
 
 const Header = () => {
   return (
@@ -20,10 +21,12 @@ const Header = () => {
             <div className="flex gap-1 items-center text-black font-medium rokkitt text-xl">En
               <img src={arrow}/>
             </div>
-            <button className="rounded-custom-radius  rokkitt text-black font-medium font-dfg cursor-pointer text-xl h-11 justify-center
+            <Link to="/signup">
+              <button className="rounded-custom-radius  rokkitt text-black font-medium font-dfg cursor-pointer text-xl h-11 justify-center
              bg-primary w-custom-width flex items-center">
-              Sing up
-            </button>
+                Sing up
+              </button>
+            </Link>
           </div>
         </div>
       </div>

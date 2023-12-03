@@ -4,19 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.dfg {
-    font-family: 'Rokkitt', sans-serif;
-}
-.custom-padding {
-    padding: 12px 24px;
-}
-
-
-.custom-padding-2 {
-    padding: 37px 74px;
-}
-
 @font-face {
     font-family: 'Rokkitt-Black';
     src: url('./fonts/Rokkitt-Black.ttf') format('truetype');
@@ -35,6 +22,19 @@
 .rokkitt {
     font-family: 'Rokkitt-Medium', sans-serif;
 }
+.dfg {
+    font-family: 'Rokkitt', sans-serif;
+}
+.custom-padding {
+    padding: 12px 24px;
+}
+
+
+.custom-padding-2 {
+    padding: 37px 74px;
+}
+
+
 
 
 .banner-text {
@@ -51,4 +51,21 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+}
+
+.pt-custom-top{
+   padding-top: 215px;
+}
+.bg-signup {
+    background-image: url("images/signup.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.categories {
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 3px 7px 0px rgba(0, 0, 0, 0.10), 0px 13px 13px 0px rgba(0, 0, 0, 0.09), 0px 29px 17px 0px rgba(0, 0, 0, 0.05), 0px 51px 20px 0px rgba(0, 0, 0, 0.01), 0px 80px 22px 0px rgba(0, 0, 0, 0.00);
 }
