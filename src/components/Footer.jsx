@@ -5,7 +5,7 @@ import {useLocation} from "react-router-dom";
 const Footer = () => {
   const location = useLocation();
   return (
-    location.pathname !== "/signup") ?(
+    location.pathname !== "/signup" && location.pathname !== "/login") ?(
     <div className="font-abc bg-[url('./images/footer.png')] bg-cover relative bg-cover">
       <div className="container">
         <img src={logo_footer} className="text-center  m-auto pt-custom-top-4"/>

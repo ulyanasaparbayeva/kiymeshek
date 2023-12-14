@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=Rokkitt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=Roboto:wght@500&display=Rokkitt:wght@500&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -25,6 +25,12 @@
 .dfg {
     font-family: 'Rokkitt', sans-serif;
 }
+
+.roboto {
+font-family: 'Roboto', sans-serif;
+}
+
+
 .custom-padding {
     padding: 12px 24px;
 }
@@ -68,4 +74,40 @@
     border-radius: 30px;
     background: #FFF;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 3px 7px 0px rgba(0, 0, 0, 0.10), 0px 13px 13px 0px rgba(0, 0, 0, 0.09), 0px 29px 17px 0px rgba(0, 0, 0, 0.05), 0px 51px 20px 0px rgba(0, 0, 0, 0.01), 0px 80px 22px 0px rgba(0, 0, 0, 0.00);
+}
+
+.signup-btn {
+    border-radius: 9.719px;
+    border: 0.694px solid rgba(0, 0, 0, 0.04);
+    background: #33B6EE;
+    box-shadow: 0px 2.777px 5.554px 0px rgba(0, 0, 0, 0.04);
+}
+
+.my-custom-swiper .swiper-pagination-bullet {
+    background-color:rgba(103, 103, 103, 1)!important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.my-custom-swiper .swiper-pagination-bullet-active {
+    background-color: #FBE04B !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.bg-swiper {
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.50);
+}
+
+.gap-custom-top-8 {
+    gap: 60px;
+}
+
+.bg-swipers {
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.50);
+
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 3px 7px 0px rgba(0, 0, 0, 0.10), 0px 13px 13px 0px rgba(0, 0, 0, 0.09), 0px 29px 17px 0px rgba(0, 0, 0, 0.05), 0px 51px 20px 0px rgba(0, 0, 0, 0.01), 0px 80px 22px 0px rgba(0, 0, 0, 0.00);
+
 }
