@@ -10,9 +10,9 @@ const Footer = () => {
       <div className="container">
         <img src={logo_footer} className="text-center  m-auto pt-custom-top-4"/>
         <div className="flex items-center justify-center text-white text-xl font-medium pt-custom-top-4 gap-8 pb-12">
-          <Link to="">Categories</Link>
-          <Link to="">Post</Link>
-          <Link to="">About our team</Link>
+          <Link to="/categories">Categories</Link>
+          <Link to="/">Post</Link>
+          <Link to="team">About our team</Link>
           <Link to="">Support</Link>
         </div>
         <div className="text-white text-xl font-light text-center pb-custom-bottom-3 flex items-center justify-center gap-1.5">

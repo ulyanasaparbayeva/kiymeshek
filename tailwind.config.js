@@ -33,7 +33,8 @@ module.exports = {
         "secondary-6":"#33B6EE",
         "secondary-7":"#F7F7F7",
         "secondary-8":"rgba(0, 0, 0, 0.84)",
-        "secondary-9":"#FBE04B"
+        "secondary-9":"#FBE04B",
+        "secondary-10":"#FCFCFC"
       },
      padding: {
         'customs-padding':'53px',
@@ -48,12 +49,16 @@ module.exports = {
        'custom-top-8':'60px',
        'custom-top-9':'35px',
        'custom-top-10':'83px',
-       'custom-top-11':'63px',
-       'custom-top-11':'72px',
+       'custom-top-11':'67px',
+       'custom-top-12':'63px',
+       'custom-top-13':'72px',
+       'custom-top-14':'22px',
        'custom-bottom-1':'78px',
        'customs-bottom':'214px',
        'custom-bottom-3':'21px',
        'custom-bottom-4':'37px',
+       'custom-bottom-5':'59px',
+       'custom-bottom-6':'23px',
        'custom-padding':'18px',
      },
       margin: {
@@ -79,12 +84,15 @@ module.exports = {
         'custom-size-6':'40px'
       },
       gap: {
-        'custom-gap':'58px'
+        'custom-gap':'58px',
+        'custom-gap-2':'15px'
       },
       height: {
         'custom-height':'90px',
         'custom-height-1':'67px',
-        'custom-height-2':'285px'
+        'custom-height-2':'285px',
+        'custom-height-3':'360px'
+
       },
       width: {
         'custom-width':'103px',

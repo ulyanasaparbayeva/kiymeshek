@@ -1,15 +1,19 @@
 import logo from "../images/logo.svg";
 import arrow from "../images/arrow.svg";
 import search from "../images/search.svg";
-import {Link} from "react-router-dom";
-
+import {Link, useLocation} from "react-router-dom";
+const exceptionalRoutes = ['/signup','/login']
 const Header = () => {
-  return (
+  const location = useLocation();
+
+  return  !exceptionalRoutes.includes(location.pathname) ? (
     <div className="font-abc">
       <div className="container">
         <div className="flex items-center pt-custom-top-1 justify-between">
           <div className='flex items-center gap-custom-gap'>
-            <img src={logo}/>
+            <Link to="/">
+              <img src={logo}/>
+            </Link>
             <div className="relative">
               <input  placeholder="Search..."
                       className="w-custom-width-1 custom-padding border-none rokkitt
@@ -31,6 +35,6 @@ const Header = () => {
         </div>
       </div>
     </div>
-  )
+  ) : <></>
 }
 export default  Header
